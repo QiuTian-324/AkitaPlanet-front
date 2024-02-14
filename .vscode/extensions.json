@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "Vue.volar",
+    "antfu.iconify",
+    "antfu.unocss",
+    "dbaeumer.vscode-eslint",
+    "EditorConfig.EditorConfig"
+  ]
+}
