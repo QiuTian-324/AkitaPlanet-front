@@ -12,9 +12,9 @@ function addToFavorites() {
 </script>
 
 <template>
-  <div class="card-view hidden animate-zoom-in animate-duration-600 text-center lg:block space-y-5">
+  <div class="card-view  animate-duration-600  text-center lg:block space-y-5">
     <div class="mt-4 flex justify-center">
-      <img class="w-[105px] duration-600 hover:rotate-360" :src="convertImgUrl(blogConfig.website_avatar)" alt="author avatar">
+      <img class="w-[105px] h-[105px] rounded-2xl duration-600  hover:-translate-y-4" :src="convertImgUrl(blogConfig.website_avatar)" alt="author avatar">
     </div>
     <div class="space-y-1">
       <p class="text-2xl">

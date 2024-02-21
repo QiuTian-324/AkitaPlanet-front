@@ -7,8 +7,8 @@ const { blogInfo } = storeToRefs(useAppStore())
 
 <template>
   <footer class="f-c-c">
-    <div class="footer-wrap w-full px-5 py-10 text-center text-white leading-8">
-      <p> &copy;{{ 2022 }} - {{ new Date().getFullYear() }} By 阵、雨</p>
+    <div class="footer-wrap w-full px-5 py-2 text-center text-white leading-8">
+      <p> &copy;{{ 2024 }} - {{ new Date().getFullYear() }} akita</p>
       <a href="https://beian.miit.gov.cn/" target="_blank">
         {{ blogInfo.blog_config?.website_record }}
       </a>
@@ -18,7 +18,7 @@ const { blogInfo } = storeToRefs(useAppStore())
 
 <style scoped>
 .footer-wrap {
-  background: linear-gradient(-45deg, #ee7752, #ce3e75, #23a6d5, #23d5ab);
+  background: #7dd77d;
   background-size: 400% 400%;
   animation: Gradient 8s ease infinite;
 }

@@ -19,7 +19,7 @@ html, body, #app {
 
 body {
   /* 根路径加载静态资源, 让每个路由下都能加载到 */
-  cursor: url("/cursor/normal.cur"), auto;
+  /*cursor: url("/cursor/normal.cur"), auto;*/
 
   width: 100%;
   height: 100%;
@@ -38,7 +38,7 @@ body {
 a,
 button,
 img {
-  cursor: url("/cursor/link.cur"), auto;
+  /*cursor: url("/cursor/link.cur"), auto;*/
 }
 
 /* 自定义滚动条样式 */

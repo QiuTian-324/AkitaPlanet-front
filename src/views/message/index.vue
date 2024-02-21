@@ -19,9 +19,9 @@ const isLoop = ref(false) // 循环播放
 
 // 弹幕列表
 const danmus = ref([{
-  avatar: 'https://www.bing.com/rp/ar_9isCNU2Q-VG1yEDDHnx8HAFQ.png',
+  avatar: 'http://cdn.akita324.top/1707893984ffd637b6a2788c5f8164c981d95d1d2c.jpg',
   content: '大家好，我是作者，欢迎给我点一颗 Star!',
-  nickname: '阵、雨',
+  nickname: 'Akita',
 }])
 
 onMounted(async () => {

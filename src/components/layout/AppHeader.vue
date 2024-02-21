@@ -86,7 +86,7 @@ async function logout() {
   <MobileSideBar />
   <!-- 电脑端顶部导航栏 -->
   <Transition name="slide-fade" appear>
-    <div v-if="barShow" :class="navClass" class="fixed inset-x-0 top-0 z-11 hidden h-[60px] lg:block">
+    <div v-if="barShow" :class="navClass" class="fixed  inset-x-0 top-0 z-11 hidden h-[60px] lg:block">
       <div class="h-full flex items-center justify-between px-9">
         <!-- 左上角标题 -->
         <RouterLink to="/" class="text-xl font-bold">

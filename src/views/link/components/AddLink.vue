@@ -6,9 +6,9 @@
     </p>
     <!-- 添加友链格式 -->
     <blockquote class="border-l-3 border-color-#49b1f5 rounded-l-5 bg-#ecf7fe px-4 py-3 leading-7">
-      <p>名称：阵、雨的个人博客</p>
-      <p>简介：往事随风而去</p>
-      <p>头像：https://foruda.gitee.com/avatar/1677041571085433939/5221991_szluyu99_1614389421.png</p>
+      <p>名称：Akita的个人博客</p>
+      <p>简介：足够用心，才足够特别</p>
+      <p>头像：http://cdn.akita324.top/1707893984ffd637b6a2788c5f8164c981d95d1d2c.jpg</p>
     </blockquote>
     <p>
       需要交换友链的在下方留言💖:

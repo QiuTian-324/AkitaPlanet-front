@@ -19,9 +19,9 @@ export const useAppStore = defineStore('app', {
       user_count: 0,
     },
     blog_config: {
-      website_name: '阵、雨的个人博客',
-      website_author: '阵、雨',
-      website_intro: '往事随风而去',
+      website_name: 'Akita Planet',
+      website_author: 'Akita',
+      website_intro: '足够用心，才足够特别',
       website_avatar: '',
     },
   }),

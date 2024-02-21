@@ -19,8 +19,8 @@ const loginFlag = computed({
 })
 
 const form = ref({
-  username: 'test@qq.com',
-  password: '11111',
+  username: 'admin',
+  password: '123456',
 })
 
 // 登录

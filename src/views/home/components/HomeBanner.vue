@@ -32,10 +32,12 @@ function getOneSentence() {
 }
 
 function scrollDown() {
+  console.log(1)
   window.scrollTo({
     behavior: 'smooth',
-    top: document.documentElement.clientHeight,
+    top: 500,
   })
+
 }
 
 // 根据后端配置动态获取封面
@@ -48,8 +50,8 @@ const coverStyle = computed(() => {
 </script>
 
 <template>
-  <div class="banner-fade-down absolute bottom-0 left-0 right-0 h-screen text-center text-white" :style="coverStyle">
-    <div class="absolute inset-x-0 mt-[43vh] text-center space-y-3">
+  <div class="banner-fade-down absolute top-0 bottom-0 left-0 right-0 h-[300px] f-c-c lg:h-[500px] object-cover w-full text-center text-white" :style="coverStyle">
+    <div class="absolute inset-x-0  text-center space-y-3">
       <h1 class="animate-zoom-in text-4xl font-bold lg:text-5xl">
         {{ blogConfig.website_name }}
       </h1>
@@ -71,7 +73,7 @@ const coverStyle = computed(() => {
       </div>
     </div>
     <!-- 向下滚动 -->
-    <div class="absolute bottom-0 w-full cursor-pointer" @click="scrollDown">
+    <div class="absolute bottom-10 w-full cursor-pointer lg:flex lg:justify-center hidden" @click="scrollDown">
       <span class="i-ep:arrow-down-bold inline-block animate-bounce text-2xl text-white" />
     </div>
   </div>

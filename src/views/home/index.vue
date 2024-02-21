@@ -72,12 +72,13 @@ function backTop() {
   <!-- 首页封面图 -->
   <HomeBanner />
   <!-- 内容 -->
-  <div class="mx-auto mb-8 max-w-[1230px] flex flex-col justify-center px-3" style="margin-top: calc(100vh + 30px)">
+<!--  max-w-[1230px]-->
+  <div class="mx-auto mb-8 max-w-screen-xl flex flex-col justify-center px-3 lg:pt-[550px] pt-[320px]">
     <div class="grid grid-cols-12 gap-4">
       <!-- 左半部分 -->
       <div class="col-span-12 lg:col-span-9 space-y-5">
         <!-- 说说轮播 -->
-        <TalkingCarousel />
+<!--        <TalkingCarousel />-->
         <!-- 文章列表 -->
         <div class="space-y-5">
           <ArticleCard v-for="(item, idx) in articleList" :key="item.id" :article="item" :idx="idx" />
@@ -103,7 +104,7 @@ function backTop() {
         </div>
       </div>
       <!-- 右半部分 -->
-      <div class="col-span-0 lg:col-span-3">
+      <div class="col-span-0 lg:col-span-3 lg:flex hidden">
         <!-- sticky 实现悬浮固定效果 -->
         <div class="sticky top-5 space-y-5">
           <!-- 博主信息 -->
